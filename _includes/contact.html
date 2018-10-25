@@ -1,103 +1,65 @@
-<!-- .contact -->
-<div id="contact" class="content_2">
-        
-<h1 class="h-bloc">Contact - Contact Me</h1>
+<div class="contact-container container-block">
+  <ul class="list-unstyled contact-list">
 
+    {% if sidebar.email %}
+    <li class="email"><i class="fas fa-envelope"></i>
+      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+    </li>
+    {% endif %}
 
-<div class="row">
+    {% if sidebar.phone %}
+    <li class="phone"><i class="fas fa-phone"></i>
+      <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+    </li>
+    {% endif %}
 
-    <div class="col-lg-12">
-        <div id="map"></div>
-    </div>  
+    {% if sidebar.website %}
+    <li class="website"><i class="fas fa-globe-americas"></i>
+      <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+    </li>
+    {% endif %}
 
-    <div class="col-lg-12">
-        <div class="row" id="contact-user">
-            <div class="col-md-5">
-                <div class="contact-info">
-                    <!--<h3 class="main-heading"><span>Contact info</span></h3>-->
+    {% if sidebar.linkedin %}
+    <li class="linkedin"><i class="fab fa-linkedin"></i>
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+    </li>
+    {% endif %}
 
-                    <div class="title_content" style="float: none;">
-                        <div class="text_content">Contact info</div>
-                        <div class="clear"></div>
-                    </div>
+    {% if sidebar.github %}
+    <li class="github"><i class="fab fa-github"></i>
+      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+    </li>
+    {% endif %}
 
-                    <ul>
-                        <li><span class="span-info"><i class="glyphicon glyphicon-map-marker"></i> Adress:</span> San Francisco , CA.<br /><br /></li>
-                        <li><span class="span-info"><i class="glyphicon glyphicon-envelope"></i> Email:</span> brown.smith@gmail.com</li>
-                        <li><span class="span-info"><i class="glyphicon glyphicon-phone"></i> Phone:</span> +123 456 789 111</li>
-                        <li><span class="span-info"><i class="glyphicon glyphicon-globe"></i> Website:</span> www.brown-smith.com</li>
-                        <li><span class="span-info"><i class="glyphicon glyphicon-comment"></i> Skype:</span> brown-smith-skype</li>
-                        <li><span class="span-info"><i class="glyphicon glyphicon-thumbs-up"></i> G. Drive:</span> brown-s-gm@gmail.com</li>
-                        <li><span class="span-info"><i class="glyphicon glyphicon-unchecked"></i> Skydrive:</span> brown-s-sk@hotmail.com</li>
-                    </ul>
-                </div>
-                <!-- /Contact Info -->
-                <div class="clear"></div>
+    {% if sidebar.gitlab %}
+    <li class="gitlab"><i class="fab fa-gitlab"></i>
+      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
+    </li>
+    {% endif %}
 
-                <!--<h3 class="main-heading" style="margin-left: 22px;"><span>Follow me</span></h3>-->
+    {% if sidebar.bitbucket %}
+    <li class="bitbucket"><i class="fab fa-bitbucket"></i>
+      <a href="http://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
+    </li>
+    {% endif %}
 
-                <div class="title_content tiltle_contacts" style="float: none;">
-                    <div class="text_content">Follow me</div>
-                    <div class="clear"></div>
-                </div>
+    {% if sidebar.twitter %}
+    <li class="twitter"><i class="fab fa-twitter"></i>
+      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
+    </li>
+    {% endif %}
 
-            
+    {% if sidebar.stack-overflow %}
+    <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
+      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
+    </li>
+    {% endif %}
 
-                    <div id="profile_social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa fa-dribbble"></i></a>
-                        <a href="#"><i class="fa fa-foursquare"></i></a>
-                        <div class="clear"></div>
-                    </div>
-      
+    {% if sidebar.codewars %}
+    <li class="codewars"><i class="fas fa-code"></i>
+      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
+    </li>
+    {% endif %}
 
-
-            </div>
-
-            <div class="col-md-7">
-                <!-- Contact Form -->
-                <div class="title_content" style="float: none;">
-                    <div class="text_content">Let's keep in touch</div>
-                    <div class="clear"></div>
-                </div>
-
-                <div class="contact-form">
-                    <!--<h3 class="main-heading"><span>Let's keep in touch</span></h3>-->
-
-
-
-                    <div id="contact-status"></div>
-
-                    <form action="#" id="contactform">
-                        <p class="form-group" id="contact-name">
-                            <label for="name">Your Name</label>
-                            <input type="text" name="name" class="form-control name-contact" id="inputSuccess" placeholder="Name..." />
-                        </p>
-                        <p class="form-group" id="contact-email"> 
-                            <label for="email">Your Email</label>
-                            <input type="text" name="email" class="form-control email-contact" id="inputSuccess" placeholder="Email..." />
-                        </p>
-
-                        <p class="form-group" id="contact-message">
-                            <label for="message">Your Message</label>
-                            <textarea name="message" cols="88" rows="6" class="form-control message-contact" id="inputError" placeholder="Message..."></textarea>
-                        </p>
-                        <input type="reset" name="reset" value="CLEAR" class="reset">
-                        <!-- <input type="submit" name="submit" value="SEND MESSAGE" class="submit">-->
-
-                        <section class="button-demo" style="display: inline-block;">
-                            <button class="ladda-button submit send_email" name="submit" data-color="green" data-style="expand-left">SEND MESSAGE</button>
-                        </section>
-
-                    </form>
-                </div>
-                <!-- /Contact Form -->
-            </div>
-        </div>
-    </div>  
-
-</div>                                            
-</div>
-    <!-- End .contact -->
+  </ul>
+</div><!--//contact-container-->

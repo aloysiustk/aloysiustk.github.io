@@ -1,23 +1,28 @@
+#Update all the sections by editing the data.yml file inside _data folder.
 
+# Site Settings
 title: My Resume
-url: 'http://junlulocky.com'
-baseurl: '/' #change it according to your repository name
+url: 'http://webjeda.com'
+baseurl: '/online-cv' #change it according to your repository name
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: blue # blue turquoise green berry orange ceramic
 
+# Tracker
+analytics: UA-83979019-1
 
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-# Profile information
-yourname: Aloysius Tatus Kristanto  ## put your name
-title: 'Information System'  ## your title
-location: Madiun,East Java
+# Build settings
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
 
-
-## Social Profiles
-facebook: http://www.facebook.com/Aloysius.Tatus.Kristanto  ## your facebook account url
-twitter: http://www.twitter.com/aloysius_tatus  ## your twitter account url
-linkedin: http://www.linkedin.com/in/aloysius-tatus-kristanto-658a88b5/  ## your linkedin account url
-dribbble: https://open.spotify.com/user/21rdwbpxyv5qu4rt46mcgzjsq?si=mr9dBvR_QyWNwtS07d-tEg  ## you spotify account url
-foursquare: http://www.instagram.com/aloysius_tatus  ## your Instagram account url
-
-
-
-# Update all the sections by editing the files inside _includes folder.
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false
