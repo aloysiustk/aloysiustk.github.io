@@ -1,22 +1,22 @@
 
 title: My Resume
 url: 'http://junlulocky.com'
-baseurl: '/PanelCV' #change it according to your repository name
+baseurl: '/' #change it according to your repository name
 
 
 
 # Profile information
-yourname: Brown Smith  ## put your name
-title: 'GRAPHIC &amp; WEB DESIGNER'  ## your title
-location: San Francisco , CA
+yourname: Aloysius Tatus Kristanto  ## put your name
+title: 'Information System'  ## your title
+location: Madiun,East Java
 
 
 ## Social Profiles
-facebook: http://www.facebook.com  ## your facebook account url
-twitter: http://www.twitter.com  ## your twitter account url
-linkedin: http://www.linkedin.com  ## your linkedin account url
-dribbble: http://www.dribble.com  ## you dribbble account url
-foursquare: http://www.foursquare.com  ## your foursquare account url
+facebook: http://www.facebook.com/Aloysius.Tatus.Kristanto  ## your facebook account url
+twitter: http://www.twitter.com/aloysius_tatus  ## your twitter account url
+linkedin: http://www.linkedin.com/in/aloysius-tatus-kristanto-658a88b5/  ## your linkedin account url
+dribbble: https://open.spotify.com/user/21rdwbpxyv5qu4rt46mcgzjsq?si=mr9dBvR_QyWNwtS07d-tEg  ## you spotify account url
+foursquare: http://www.instagram.com/aloysius_tatus  ## your Instagram account url
 
 
 
