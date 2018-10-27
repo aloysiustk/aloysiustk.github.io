@@ -1,13 +1,11 @@
 # Skills
 # Hardskills
 - skill: Hard skills
-  description: Networking Management, Cybersecurity, IT Performance and evaluation measurement, Enterprise Resource Planning (SAP SD,MM,PP,FI,CO &HCM) ,
-Project Management,IT Service Management ,Bussiness Process Management,Web Development (CI / Laravel),Java,Python,SQL,Digital Forensics,Bussiness Intelligence
-
+  description: Networking Management, Cybersecurity, IT Performance and evaluation measurement, Enterprise Resource Planning (SAP SD,MM,PP,FI,CO &HCM),
+Project Management,IT Service Management ,Bussiness Process Management,Web Development(CI & Laravel),Java,Python,SQL,Digital Forensics,Bussiness Intelligence
 # Soft skills
 - skill: Soft Skills
   description: leadership, teamwork, time management, critical-analytical thinking, resilience, adaptive, interpersonal communication, and networking.
-
 # Language
 skill: Language
 description: Bahasa Indonesia (Active), English (Passive) , Javannese(Passive)
