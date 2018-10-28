@@ -51,7 +51,7 @@ resume_social_links:
   resume_facebook_url:          "https://facebook.com/Aloysius.Tatus.Kristanto"
   resume_linkedin_url:          "https://linkedin.com/in/aloysius-tatus-kristanto/"
   resume_instagram_url:         "https://instagram.com/aloysius_tatus"
-  #resume_website_url:           ""
+  resume_website_url:           "https://aloysiustk.github.io"
   resume_medium_url:            "https://medium.com/@aloysius_tatus"
 resume_print_social_links:      true
 
