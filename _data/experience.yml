@@ -2,7 +2,17 @@
 - company: PT Bank Mandiri Tbk 
   position: Data Analyst at Enterprise Data Management Group
   duration: 21 November, 2018 &mdash; present
-  summary: Analyze funding , E-Channel ,mortgage and autoloans.create machine learning model for mandiri online users.
+  summary: Projects and activities from Funding,E-channel and Loans:. 
+  <ul class="resume-item-list">
+  <li>Deploying Jupyterhub on server machine (efficiency up to 10% per user)</li>
+  <li>Acquisiton new mandiri online users from all customers of Bank Mandiri (take up rate 1%)</li>
+  <li>Acquisiton of Top Up mortgage customer from existing mortgage (take up rate 0.5%)</li>
+  <li>Create an automation for whitelist of Apply and Buy Tokopedia Project (efficiency 5%)</li>
+  <li>Solved a difference subsidy rate of KUR between Bank Mandiri and Governments (Worth Millions Rupiah)</li>
+  <li>Analyze a sleeping users of mobile whose using telkomsel as providers at mei-agustus 2018.</li>
+  <li>Analyze a customers who paid off their mortgage loans before maturity date.</li>
+  <li>Analyze a KUM and KUR Customers from theirs transaction.</li>
+  </ul>
 # intern
 - company: PT Bank Rakyat Indonesia Tbk 
   position: Internship at Divisi Satelit dan Jaringan infrastruktur
