@@ -1,6 +1,6 @@
 # Site settings
-title: "CV of A.T.K"
-description: "A Curicullum Vitae of Aloysius Tatus Kristanto."
+title: "A.T.K"
+description: "A Resume of Aloysius Tatus Kristanto."
 
 # Build settings
 markdown: kramdown
