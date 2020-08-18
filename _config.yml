@@ -17,10 +17,10 @@ resume_title:                   "Information System"
 resume_contact_email:           "aloysius.tatus@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "+62 81316285479"
+resume_contact_telephone:       "+62 813xxxxxxxx"
 resume_contact_address:         "Madiun (East Java), Indonesia"
 
-resume_header_contact_info:     "Madiun (East Java) • +62 81316285479 • aloysius.tatus@gmail.com"
+resume_header_contact_info:     "Madiun (East Java) • +62 813xxxxxxxx • aloysius.tatus@gmail.com"
 display_header_contact_info:    "true"
 
 resume_header_intro: "<p>Passionate being Data Engineer who solved Business need. Have knowledge in SQL ( RDMS and Big Data ) , Visualization ( Tableau / Power BI) , analytical tools (Python and excel ) , and Data Integration (Talend Open Studio).</p>"
