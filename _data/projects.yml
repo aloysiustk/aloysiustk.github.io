@@ -2,15 +2,45 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # new
-- project: Apply and Buy Tokopedia-Mandiri
-  role: Data Analyst
-  duration: 2019
+- project: Credit Risk Report
+  role: Data Engineer
+  duration: Des 2020
   # url: "#"
-  description: Create an automation for generating an eligible customers of Credit Card
+  description: Designed and engineered a dedicated datamart to support comprehensive Credit Risk Reporting, consolidating key metrics including Balance, NPL, LaR, CKPN, and CoC.
+
+# new
+- project: AI For Tester
+  role: Data Engineer
+  duration: 2025 &mdash; present
+  # url: "#"
+  description: Designed and engineered a dedicated datamart to support comprehensive Credit Risk Reporting, consolidating key metrics including Balance, NPL, LaR, CKPN, and CoC.
+
+
+# new
+- project: Regulatory Reporting Improvement Project
+  role: Project User
+  duration:  2024
+  # url: "#"
+  description: Collaborated across business, regulatory, and IT teams to streamline and enhance reporting capabilities.
+
+# new
+- project: Near Real-time Credit Datamart
+  role: Data Engineer
+  duration: 2025
+  # url: "#"
+  description: Developed a centralized datamart for the Near Real-time Credit Bankwide , providing a single source of truth for critical indicators and enabling analysis of Loan and Risk Bankwide.
+
+
+ - project: Branch Transaction Monitoring
+  role: Data Engineer
+  duration: 2020
+  # url: "#"
+  description: Designed and engineered a dedicated datamart to support comprehensive Branch Transaction Monitoring.
+ 
 
 # new
 - project: Dashboard Board of Directors
   role: Data Engineer
-  duration:  Des 2019 &mdash; Present
+  duration:  Des 2019
   # url: "#"
-  description: Create a summary of Echannel Transaction for  Dashboard of BoD
+  description: Developed a centralized summary Echannel datamart for  Dashboard of BoD
