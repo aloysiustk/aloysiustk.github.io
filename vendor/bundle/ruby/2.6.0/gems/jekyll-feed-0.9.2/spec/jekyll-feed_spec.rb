@@ -181,7 +181,7 @@ describe(JekyllFeed) do
       url = "https://validator.w3.org/feed/check.cgi?output=soap12"
       response = Typhoeus.post(url, body: { rawdata: contents }, accept_encoding: "gzip")
       pending "Something went wrong with the W3 validator" unless response.success?
-      result  = Nokogiri::XML(response.body)
+      result  = Nokogiri::XML(response.body, nil, nil, Nokogiri::XML::ParseOptions::NOENT)
       result.remove_namespaces!
 
       result.css("warning").each do |warning|

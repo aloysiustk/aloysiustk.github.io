@@ -61,7 +61,7 @@ module Rouge
         rule %r[\((\\[\\\)]|[^\)])*\)[egimosx]*], re_tok, :pop!
         rule %r(@(\\[\\@]|[^@])*@[egimosx]*), re_tok, :pop!
         rule %r(%(\\[\\%]|[^%])*%[egimosx]*), re_tok, :pop!
-        rule %r(\$(\\[\\\$]|[^\$])*\$[egimosx]*), re_tok, :pop!
+        rule %r(\$(?:(?>\\$|[^$])*)\$[egimosx]*), re_tok, :pop!
       end
 
       state :root do

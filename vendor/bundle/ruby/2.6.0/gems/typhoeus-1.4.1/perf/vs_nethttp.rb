@@ -35,7 +35,7 @@ Benchmark.bm do |bm|
 
     bm.report("open            ") do
       calls.times do |i|
-        open(url_for(i))
+        Net::HTTP.get_response(URI.parse(url_for(i)))
       end
     end
 
