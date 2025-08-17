@@ -216,9 +216,9 @@ module Kramdown
       def convert_a(el, opts)
         url = el.attr['href']
         if url.start_with?('#')
-          "\\hyperlink{#{url[1..-1].gsub('%', '\\%')}}{#{inner(el, opts)}}"
+          "\hyperlink{#{Kramdown::Utils::LaTeX.escape(url[1..-1])}}{#{inner(el, opts)}}"
         else
-          "\\href{#{url.gsub('%', '\\%')}}{#{inner(el, opts)}}"
+          "\href{#{Kramdown::Utils::LaTeX.escape(url)}}{#{inner(el, opts)}}"
         end
       end
 
