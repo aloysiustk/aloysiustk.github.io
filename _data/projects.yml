@@ -30,8 +30,8 @@
   # url: "#"
   description: Developed a centralized datamart for the Near Real-time Credit Bankwide , providing a single source of truth for critical indicators and enabling analysis of Loan and Risk Bankwide.
 
-
- - project: Branch Transaction Monitoring
+# new
+- project: Branch Transaction Monitoring
   role: Data Engineer
   duration: 2020
   # url: "#"
