@@ -52,7 +52,7 @@ module Dnsruby
           @name2addr = {}
           @addr2name = {}
           begin
-            open(@filename) {|f|
+            File.open(@filename) {|f|
               f.each {|line|
                 line.sub!(/#.*/, '')
                 addr, hostname, *aliases = line.split(/\s+/)
